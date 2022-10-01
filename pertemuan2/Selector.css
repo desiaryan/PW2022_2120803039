@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p{
+    font-style: italic;
+    color: green;
+}
+
+#judul{
+    font-size: 50px;
+    color: red;
+
+}
+
+.twitter{
+    color: blue;
+    text-decoration: underline;
+}
