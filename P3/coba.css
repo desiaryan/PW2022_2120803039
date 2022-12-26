@@ -1,0 +1,17 @@
+body {
+    font-family: arial;
+}
+
+#judul {
+    font-size: 50px;
+    color: coral;
+}
+
+h1 {
+    color: blue;
+}
+
+.twitter {
+    color: skyblue;
+    text-decoration: underline;
+}

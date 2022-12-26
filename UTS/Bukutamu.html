@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buku Tamu HTML</title>
+  <link rel="stylesheet" type="text/css" href="styleHtml.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="backgroundloader">
+    <div class="loader"></div>
+  </div>
+
+  <div class="top">
+    <div class="container">
+      <ul>
+        <li><a href="#"><i class=""></i></a></li>
+        <li><a href="#"><i class=""></i></a></li>
+        <li><a href="#"><i class=""></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <h1><img src="logo uin raden fatah plg.png" width="50px"></h1>
+      <h2><a href="Home.html">UIN Raden Fatah</a></h2>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Tentang.html">Tentang</a></li>
+        <li><a href="Galeri.html">Galeri</a></li>
+        <li class="aktif"><a href="Bukutamu.html">Buku Tamu</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="merek">
+    <div class="container">
+      <p>Home / Buku Tamu</p>
+    </div>
+  </section>
+
+  <section class="Bukutamu">
+    <div class="container">
+      <div class="box">
+        <div class="center1">
+          <h1>Buku Tamu</h1>
+          <form method="post">
+            <div class="text_field">
+              <input type="text" required>
+              <span></span>
+              <label for="">Nama Tamu</label>
+            </div>
+            <div class="text_field">
+              <input type="text required">
+              <span></span>
+              <label for="">NIM</label>
+            </div>
+            <div class="text_field">
+              <input type="text required">
+              <span></span>
+              <label for="">Fakultas</label>
+            </div>
+            <input type="submit" value="Kirim">
+
+          </form>
+        </div>
+      </div>
+      <iframe src="" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <small>Copyright &copy; 2022 - M. Andre Ghazali. All Rights Reserved.</small>
+      <copy2>Fakultas Sains & Teknologi.</copy2>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".backgroundloader").hide();
+    })
+  </script>
+</body>
+
+</html>

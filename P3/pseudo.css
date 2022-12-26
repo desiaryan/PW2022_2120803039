@@ -1,0 +1,17 @@
+.hello:link {
+    color: aqua;
+}
+
+.hello:hover {
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.hello:active {
+    font-size: italic;
+}
+
+.hello:visited {
+    color: red;
+}
